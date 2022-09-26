@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.lucaargolo.terrarianslimes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AccessorLootContextTypes",
+    "AccessorSlimeEntity",
+    "ExplosionMixin",
+    "PistonBlockEntityMixin",
+    "PistonBlockMixin",
+    "PistonHandlerMixin"
+  ],
+  "client": [
+    "AccessorModelData",
+    "AccessorModelPartData",
+    "InvokerModelPartData",
+    "ItemRendererInvoker",
+    "LivingEntityRendererMixin",
+    "RenderLayersMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
